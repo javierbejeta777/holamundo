@@ -13,9 +13,4 @@ public class Operaciones {
 		float resultado = num1*num2;
 		JOptionPane.showMessageDialog(null, num1 + " x " + num2 + " = " + df.format(resultado));
 	}
-	
-	public static void main(String[] args) {
-		multiplicar();
-	}
-
 }
