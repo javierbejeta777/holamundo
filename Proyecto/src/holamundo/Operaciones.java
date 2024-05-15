@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 
 public class Operaciones {
 	
-	public static void multiplicar() {
+	public static void Multiplicar() {
 		DecimalFormat df = new DecimalFormat("#.##");
 		int num1 = Integer.parseInt(JOptionPane.showInputDialog("Escribe el primer numero"));
 		int num2 = Integer.parseInt(JOptionPane.showInputDialog("Escribe el segundo numero"));
