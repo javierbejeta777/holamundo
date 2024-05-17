@@ -10,10 +10,10 @@ public class Multiplicar {
 		DecimalFormat df = new DecimalFormat("#.##");
 		int num1 = Integer.parseInt(JOptionPane.showInputDialog("Escribe el primer numero"));
 		int num2 = Integer.parseInt(JOptionPane.showInputDialog("Escribe el segundo numero"));
-		Multiplicar(num1,num2);
+		Multiplicar(num1,num2,df);
 	}
 	
-	public static void Multiplicar(int num1, int num2) {
+	public static void Multiplicar(int num1, int num2,DecimalFormat df) {
 		float resultado = num1*num2;
 		JOptionPane.showMessageDialog(null, num1 + " x " + num2 + " = " + df.format(resultado));
 	}
