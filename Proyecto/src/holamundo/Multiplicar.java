@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 import javax.swing.JOptionPane;
 
-public class Operaciones {
+public class Multiplicar {
 	
 	public static void Multiplicar() {
 		DecimalFormat df = new DecimalFormat("#.##");
