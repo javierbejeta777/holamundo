@@ -22,7 +22,7 @@ public class Menu {
 				Sumar.main(null);
 				break;
 			case 2:
-				Restar.main(null);
+				Resta.main(null);
 				break;
 			case 3:
 				Multiplicar.main(null);
